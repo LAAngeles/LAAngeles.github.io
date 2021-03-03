@@ -2,3 +2,57 @@ h1{
     color: green;
     text-align: center;
 }
+h2{
+    color: red;
+    text-align: center;
+}
+/* Specificity
+1. inline, 2. id, 3. class, 4. type */
+#cobre{
+    color: orange; text-align: center;
+}
+/* Se declara una clase de nombre baz */
+.baz{
+    color: brown;
+}
+
+div{
+    background-color: orange;
+    text-align: center;
+    width: 1000px;
+    height: auto;
+    padding: 20px;
+    margin: auto;
+    
+    border: 3px solid black;
+    font-family: Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+}
+table{
+    border: 3px solid gold;
+    /* border-collapse: collapse; */
+}
+td, th{
+    border: 3px solid gray;
+    padding: 20px;
+}
+
+ul li{
+    color: blueviolet;
+}
+/* CSS Selectors
+a,b     Multiple elements selectors
+a b     Descendant selector
+a>b     Child Selector
+a+b     Adjacent sibling selector
+[a=b]   Attribute selector
+a:b     Pseudoclass selector
+a::b    Pseudoelement selector  */
+
+a{
+    color: blue;
+}
+a[href="https://www.mtvla.com"] {
+    color: red;
+}
