@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flexbox</title>
+        <style>
+            #container{
+                display: flex;
+                /* If there's not enough room at the end of a line 
+                for all of the elements, go ahead and wrap around those elements */
+                flex-wrap: wrap;
+            }
+            /* for the container all of the div inside of that container
+            to get all the divs that are inside of the container */
+            #container>div{
+                background-color: green;
+                font-size: 20px;
+                margin: 20px;
+                padding: 20px;
+                width: 200px;
+            }
+
+            #grid{
+                background-color: indigo;
+                display: grid;
+                padding: 20px;
+                /* How mucho space goes between each of the columns */
+                grid-column-gap: 20px;
+                /* How mucho space goes between each of the rows of the grid */
+                grid-row-gap: 10px;
+                /* To specify how many colims there are going to be
+                and how wide should each of those columns be. */
+                grid-template-columns: 200px 200px auto;
+            }
+            .grid-item{
+                background-color: white;
+                font-size: 20px;
+                padding: 20px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div>1 This is some sample text inside of a div to demo flexbox</div>
+            <div>2 This is some sample text inside of a div to demo flexbox</div>
+            <div>3 This is some sample text inside of a div to demo flexbox</div>
+            <div>4 This is some sample text inside of a div to demo flexbox</div>
+            <div>5 This is some sample text inside of a div to demo flexbox</div>
+            <div>6 This is some sample text inside of a div to demo flexbox</div>
+            <div>7 This is some sample text inside of a div to demo flexbox</div>
+            <div>8 This is some sample text inside of a div to demo flexbox</div>
+            <div>9 This is some sample text inside of a div to demo flexbox</div>
+            <div>10 This is some sample text inside of a div to demo flexbox</div>
+            <div>11 This is some sample text inside of a div to demo flexbox</div>
+            <div>12 This is some sample text inside of a div to demo flexbox</div>
+        </div>
+
+        <div id="grid">
+            <div class="grid-item">1</div>
+            <div class="grid-item">2</div>
+            <div class="grid-item">3</div>
+            <div class="grid-item">4</div>
+            <div class="grid-item">5</div>
+            <div class="grid-item">6</div>
+            <div class="grid-item">7</div>
+            <div class="grid-item">8</div>
+            <div class="grid-item">9</div>
+            <div class="grid-item">10</div>
+            <div class="grid-item">11</div>
+            <div class="grid-item">12</div>
+        </div>
+    </body>
+</html>
