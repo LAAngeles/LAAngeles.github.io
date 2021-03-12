@@ -1,9 +1,30 @@
 ul {
   font-size: 14px;
-  color: red;
+  color: blue;
 }
 
 ol {
   font-size: 18px;
-  color: red;
+  color: blue;
+}
+
+.alert-danger, .alert-warning, .alert-success {
+  font-family: sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+.alert-success {
+  background-color: green;
+}
+
+.alert-warning {
+  background-color: orange;
+}
+
+.alert-danger {
+  background-color: red;
 }
