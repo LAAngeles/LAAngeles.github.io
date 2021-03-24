@@ -11,7 +11,7 @@ a::b    Pseudoelement selector  */
   display: flex;
   flex-wrap: wrap;
 }
-#MenuPrincipal div{
+#MenuPrincipal>div{
   background-color: white;
   text-align: center;
   font-size: small;
