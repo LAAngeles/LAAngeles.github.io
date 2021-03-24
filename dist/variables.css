@@ -1,3 +1,19 @@
+/* CSS Selectors
+a,b     Multiple elements selectors
+a b     Descendant selector
+a>b     Child Selector
+a+b     Adjacent sibling selector
+[a=b]   Attribute selector
+a:b     Pseudoclass selector
+a::b    Pseudoelement selector  */
+.v4 {
+  background-color: green;
+  width: 60px;
+  height: 30px;
+  padding: 20px;
+  margin: 20px;
+}
+
 ul {
   font-size: 14px;
   color: blue;
