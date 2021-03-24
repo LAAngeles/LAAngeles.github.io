@@ -12,7 +12,7 @@ a::b    Pseudoelement selector  */
   flex-wrap: wrap;
 }
 #MenuPrincipal>div{
-  background-color: white;
+  background-color: forestgreen;
   text-align: center;
   font-size: small;
   margin: 15px;
