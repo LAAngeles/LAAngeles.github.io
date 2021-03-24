@@ -6,6 +6,20 @@ a+b     Adjacent sibling selector
 [a=b]   Attribute selector
 a:b     Pseudoclass selector
 a::b    Pseudoelement selector  */
+
+#MenuPrincipal{
+  display: flex;
+  flex-wrap: wrap;
+}
+#MenuPrincipal div{
+  background-color: white;
+  text-align: center;
+  font-size: small;
+  margin: 15px;
+  padding: 10px;
+  width: 150px;
+}
+
 .v4 {
   background-color: green;
   width: 60px;
