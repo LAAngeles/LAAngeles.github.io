@@ -19,6 +19,15 @@ a::b    Pseudoelement selector  */
   padding: 10px;
   width: 150px;
 }
+button{
+  width: 800px;
+  height: 30px;
+  font-size: 14px;
+  background-color: red;
+}
+button:hover{
+  background-color: green;
+}
 
 .v4 {
   background-color: green;
