@@ -6,12 +6,32 @@ a+b     Adjacent sibling selector
 [a=b]   Attribute selector
 a:b     Pseudoclass selector
 a::b    Pseudoelement selector  */
+#grid {
+  background-color: white;
+  display: grid;
+  padding: 20px;
+  /* How mucho space goes between each of the columns */
+  grid-column-gap: 20px;
+  /* How mucho space goes between each of the rows of the grid */
+  grid-row-gap: 10px;
+  /* To specify how many colims there are going to be
+  and how wide should each of those columns be. */
+  grid-template-columns: auto auto auto auto auto auto auto;
+}
 
-#MenuPrincipal{
+.grid-item {
+  background-color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+#MenuPrincipal {
   display: flex;
   flex-wrap: wrap;
 }
-#MenuPrincipal>div{
+
+#MenuPrincipal > div {
   background-color: white;
   text-align: center;
   font-size: small;
@@ -19,13 +39,15 @@ a::b    Pseudoelement selector  */
   padding: 10px;
   width: 150px;
 }
-button{
+
+button {
   width: 800px;
   height: 30px;
   font-size: 14px;
-  background-color: red;
+  background-color: blue;
 }
-button:hover{
+
+button:hover {
   background-color: green;
 }
 
