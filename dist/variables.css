@@ -10,8 +10,10 @@ a::b    Pseudoelement selector  */
   background-color: white;
   display: grid;
   padding: 20px;
+  font-size: 25px;
+  text-align: center;
   /* How mucho space goes between each of the columns */
-  grid-column-gap: 20px;
+  grid-column-gap: 15px;
   /* How mucho space goes between each of the rows of the grid */
   grid-row-gap: 10px;
   /* To specify how many colims there are going to be
@@ -40,19 +42,36 @@ a::b    Pseudoelement selector  */
   width: 150px;
 }
 
+#MenuPrincipal div {
+  text-align: center;
+}
+#MenuPrincipal ul {
+  text-align: left;
+}
+
+#HeadMenu button {
+  width: auto;
+  height: auto;
+  background-color: white;
+}
+#HeadMenu button:hover {
+  background-color: #b1d6b1;
+}
+
 button {
+  border: 0px;
   width: 800px;
   height: 30px;
-  font-size: 14px;
-  background-color: blue;
+  font-size: 25px;
+  background-color: white;
 }
 
 button:hover {
-  background-color: green;
+  background-color: #b1d6b1;
 }
 
 .v4 {
-  background-color: green;
+  background-color: #b1d6b1;
   width: 60px;
   height: 30px;
   padding: 20px;
