@@ -6,8 +6,31 @@ a+b     Adjacent sibling selector
 [a=b]   Attribute selector
 a:b     Pseudoclass selector
 a::b    Pseudoelement selector  */
-#grid {
+#HeadMenu button {
+  width: auto;
+  height: auto;
+  background-color: #d1e7dd;
+  color: #0f5132;
+  font-weight: bold;
+}
+#HeadMenu button:hover {
   background-color: white;
+}
+
+button {
+  border: 0px;
+  width: 800px;
+  height: 30px;
+  font-size: 25px;
+  background-color: #badbcc;
+}
+
+button:hover {
+  background-color: #0f5132;
+}
+
+#grid {
+  background-color: #d1e7dd;
   display: grid;
   padding: 20px;
   font-size: 25px;
@@ -32,10 +55,11 @@ a::b    Pseudoelement selector  */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  background-color: #0f5132;
 }
 
 #MenuPrincipal > div {
-  background-color: white;
+  background-color: #0f5132;
   text-align: center;
   font-size: medium;
   margin: 15px;
@@ -45,34 +69,15 @@ a::b    Pseudoelement selector  */
 
 #MenuPrincipal div {
   text-align: center;
+  color: white;
 }
 #MenuPrincipal ul {
   text-align: left;
-}
-
-#HeadMenu button {
-  width: auto;
-  height: auto;
-  background-color: white;
-}
-#HeadMenu button:hover {
-  background-color: #b1d6b1;
-}
-
-button {
-  border: 0px;
-  width: 800px;
-  height: 30px;
-  font-size: 25px;
-  background-color: white;
-}
-
-button:hover {
-  background-color: #b1d6b1;
+  color: white;
 }
 
 .v4 {
-  background-color: #b1d6b1;
+  background-color: #0f5132;
   width: 60px;
   height: 30px;
   padding: 20px;
