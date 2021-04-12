@@ -44,7 +44,7 @@ to get all the divs that are inside of the container */
   grid-template-columns: auto auto auto;
 }
 
-.grid-item {
+.grid-itemflex {
   background-color: #d1e7dd;
   border: 1px #badbcc;
   font-size: 20px;
