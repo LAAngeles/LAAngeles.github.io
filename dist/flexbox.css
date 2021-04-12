@@ -41,7 +41,7 @@ to get all the divs that are inside of the container */
   grid-row-gap: 10px;
   /* To specify how many colims there are going to be
   and how wide should each of those columns be. */
-  grid-template-columns: 250px 250px auto;
+  grid-template-columns: auto auto auto;
 }
 
 .grid-item {
