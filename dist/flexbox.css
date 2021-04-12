@@ -49,7 +49,7 @@ to get all the divs that are inside of the container */
   border: 1px #badbcc;
   font-size: 20px;
   padding: 20px;
-  text-align: center;
+  text-align: left;
 }
 
 .infoPago-2, .infoPago {
@@ -89,7 +89,7 @@ to get all the divs that are inside of the container */
 }
 
 a {
-  color: white;
+  color: red;
 }
 
 a[href="https://laangeles.github.io/index.html"] {
