@@ -19,6 +19,8 @@ a::b    Pseudoelement selector  */
   /* To specify how many colims there are going to be
   and how wide should each of those columns be. */
   grid-template-columns: auto auto auto auto auto auto auto;
+  height: 5px;
+  align-content: center;
 }
 
 .grid-item {
