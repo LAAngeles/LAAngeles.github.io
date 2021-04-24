@@ -8,6 +8,61 @@
     background-color: yellowgreen;
   }
 }
+#grid {
+  background-color: #d1e7dd;
+  display: grid;
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+  /* How mucho space goes between each of the columns */
+  grid-column-gap: 15px;
+  /* How mucho space goes between each of the rows of the grid */
+  grid-row-gap: 10px;
+  /* To specify how many colims there are going to be
+  and how wide should each of those columns be. */
+  grid-template-columns: auto auto auto auto;
+  height: 5px;
+  align-content: center;
+}
+
+.grid-item {
+  background-color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+#MenuPrincipal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #d1e7dd;
+  padding: 10px;
+  grid-column-gap: 30px;
+}
+
+#HeadMenu button {
+  width: auto;
+  height: auto;
+  background-color: #d1e7dd;
+  color: #0f5132;
+}
+#HeadMenu button:hover {
+  background-color: white;
+}
+
+button {
+  border: 0px;
+  width: 800px;
+  height: 30px;
+  font-size: 25px;
+  background-color: #badbcc;
+}
+
+button:hover {
+  background-color: #0f5132;
+}
+
 h1 {
   color: white;
   text-align: center;
@@ -28,19 +83,6 @@ h2 {
 /* Se declara una clase de nombre baz */
 .baz {
   color: brown;
-}
-
-div {
-  background-color: orange;
-  text-align: center;
-  width: 1000px;
-  height: auto;
-  padding: 20px;
-  margin: auto;
-  border: 3px solid black;
-  font-family: Arial, sans-serif;
-  font-size: xx-large;
-  font-weight: bold;
 }
 
 table {

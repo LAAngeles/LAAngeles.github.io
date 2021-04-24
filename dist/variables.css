@@ -18,7 +18,7 @@ a::b    Pseudoelement selector  */
   grid-row-gap: 10px;
   /* To specify how many colims there are going to be
   and how wide should each of those columns be. */
-  grid-template-columns: auto auto auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto auto;
   height: 5px;
   align-content: center;
 }
@@ -28,6 +28,15 @@ a::b    Pseudoelement selector  */
   font-size: 20px;
   padding: 20px;
   text-align: center;
+}
+
+.Principal {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #d1e7dd;
+  padding: 20px;
+  grid-column-gap: 30px;
 }
 
 #MenuPrincipal {
